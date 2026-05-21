@@ -1,8 +1,8 @@
 import { motion } from 'framer-motion'
 
 const projects = [
-  { title: "ToDoulette", description: "Productivity app that helps people lessen their mental load by deciding which task to do next using randomness and engaging games, and encourage them with rewards", tech: [" react, ", "php"], github: "https://github.com/cse442-software-engineering-ub/s26-team-balala", demo: "./CSE442Presentation.mp4" },
-  { title: "AI email sorter", description: "Python AI email sorter and summarizer. This application sorts emails using the users' preferences and gives an AI summary of the emails that the user has received.", tech: [" python", ], github: "https://github.com/liam-cassidy11/CSE368-project", demo: "./LiamCassidyUIDemo.mp4" },
+  { title: "ToDoulette", description: "Productivity app that helps people lessen their mental load by deciding which task to do next using randomness and engaging games, and encourage them with rewards", tech: [" react, ", "php"], github: "https://github.com/cse442-software-engineering-ub/s26-team-balala", demo: "https://youtu.be/bVHHtKkY5aQ" },
+  { title: "AI email sorter", description: "Python AI email sorter and summarizer. This application sorts emails using the users' preferences and gives an AI summary of the emails that the user has received.", tech: [" python", ], github: "https://github.com/liam-cassidy11/CSE368-project", demo: "https://youtu.be/7T3xekdD6u4" },
 ]
 
 function Projects() {
@@ -28,7 +28,7 @@ function Projects() {
             </div>
             <div className="text-lg leading-relaxed mt-3 flex gap-4">
               <a className = "text-gray-900 hover:bg-parchment hover:text-black px-6 py-3 rounded-xl font-bold transition-colors border border-gray-900" href={project.github} target="_blank" rel="noopener noreferrer">GitHub </a>
-              <a className = "text-gray-900 hover:bg-parchment hover:text-black px-6 py-3 rounded-xl font-bold transition-colors border border-gray-900" href={project.demo} target="_blank" rel="noopener noreferrer">Live Demo</a>
+              <a className = "text-gray-900 hover:bg-parchment hover:text-black px-6 py-3 rounded-xl font-bold transition-colors border border-gray-900" href={project.demo} target="_blank" rel="noopener noreferrer">Demo</a>
             </div>
           </div>
         ))}
