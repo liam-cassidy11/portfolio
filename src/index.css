@@ -1,0 +1,14 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  background: linear-gradient(to bottom, hsl(214, 44%, 56%), #407ac6);
+  min-height: 100vh;
+  font-family: 'Inter', sans-serif;
+}
+
+html {
+  background-color: #657c9b;
+  min-height: 100vh
+}
