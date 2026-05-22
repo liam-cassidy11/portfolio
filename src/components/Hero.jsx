@@ -83,7 +83,7 @@ function Hero() {
               { val: '3.5', label: 'GPA' },
               { val: '1', label: 'Degree' },
               { val: '4+', label: 'Projects' },
-              { val: '∞', label: 'Work Ethic' },
+              { val: <span style={{ fontFamily: 'sans-serif' }}>∞</span>, label: 'Work Ethic' },
             ].map((stat, i, arr) => (
               <div key={stat.label} style={{
                 textAlign: 'center', padding: '8px 4px',
