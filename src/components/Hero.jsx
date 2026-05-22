@@ -129,7 +129,7 @@ function Hero() {
 
           {/* Buttons */}
           <div style={{ display: 'flex', gap: '8px', padding: '10px 12px', background: '#E8D5A3', borderTop: '2px solid #002D62' }}>
-            <a href="/LiamCassidyResume-12.pdf" target="_blank" rel="noopener noreferrer" 
+            <a href="/LiamCassidyResume-14.pdf" target="_blank" rel="noopener noreferrer" 
             onMouseEnter={e => e.target.style.color = '#EF3B24'}
             onMouseLeave={e => e.target.style.color = '#F5E6C8'}
             style={{
