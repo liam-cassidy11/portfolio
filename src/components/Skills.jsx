@@ -16,7 +16,7 @@ function Skills() {
         viewport={{ once: true, amount: .5 }}
       >
       <h2 style={{ fontFamily: "'Bebas Neue', sans-serif", fontSize: '40px', letterSpacing: '0.1em' }}className="font-bold text-2xl text-navy">Skills</h2>
-      <div className="flex gap-12">
+      <div className="flex flex-col sm:flex-row gap-12">
         {Object.entries(skills).map(([category, items]) => (
           <div key={category} className="mt-3 text-lg leading-relaxed">
             <h3 className="font-bold">{category}</h3>
