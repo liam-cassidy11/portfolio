@@ -3,12 +3,12 @@
 @tailwind utilities;
 
 body {
-  background: linear-gradient(to bottom, hsl(214, 44%, 56%), #407ac6);
+  background: #407ac6;;
   min-height: 100vh;
   font-family: 'Inter', sans-serif;
 }
 
 html {
-  background-color: #657c9b;
+  background-color: #407ac6;
   min-height: 100vh
 }
