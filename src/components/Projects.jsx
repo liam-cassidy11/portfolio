@@ -3,6 +3,7 @@ import { motion } from 'framer-motion'
 const projects = [
   { title: "ToDoulette", description: "Productivity app that helps people lessen their mental load by deciding which task to do next using randomness and engaging games, and encourage them with rewards", tech: [" react, ", "php"], github: "https://github.com/cse442-software-engineering-ub/s26-team-balala", demo: "https://www.youtube.com/watch?v=JX20BtHSuMQ" },
   { title: "AI email sorter", description: "Python AI email sorter and summarizer. This application sorts emails using the users' preferences and gives an AI summary of the emails that the user has received.", tech: [" python", ], github: "https://github.com/liam-cassidy11/CSE368-project", demo: "https://youtu.be/7T3xekdD6u4" },
+  { title: "Recruitment Machine", description: "A website that creates recruiting pages for high school softball players, all they have to do is input their stats, film, academics, schedule, etc and a page is created with a link that can be sent to college coaches.", tech: ["react","js" ], github: "https://github.com/liam-cassidy11/recruitment-machine" }
 ]
 
 function Projects() {
